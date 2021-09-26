@@ -1,11 +1,9 @@
-# Understanding SSL by implementing PiCIE: Unsupervised Semantic Segmentation using Invariance and Equivariance in Clustering.
-
+# Understanding SSL by implementing PiCIE.
+PiCIE Unsupervised Semantic Segmentation using Invariance and Equivariance in Clustering: 
 [[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cho_PiCIE_Unsupervised_Semantic_Segmentation_Using_Invariance_and_Equivariance_in_Clustering_CVPR_2021_paper.pdf)]
 
 <p align="center"> <img src='assets/teaser2.png' align="center" height="320px"> </p>
 <p align="center"> <img src='assets/teaser.png' align="center" height="250px"> </p>
-
-This repository is the official implementation of [PiCIE: Unsupervised Semantic Segmentation using Invariance and Equivariance in Clustering](https://openaccess.thecvf.com/content/CVPR2021/papers/Cho_PiCIE_Unsupervised_Semantic_Segmentation_Using_Invariance_and_Equivariance_in_Clustering_CVPR_2021_paper.pdf), CVPR 2021. 
 
 ## Setup
 Setting up for this project involves installing dependencies and preparing the datasets. 
