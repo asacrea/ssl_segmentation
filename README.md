@@ -81,6 +81,7 @@ We prepared [a jupyter notebook](visualize.ipynb) for visualization.
 
 ## Point 1
 Review the code and try to understand the connection between the code and the paper. Then run the train file and save the results.
+
 In the report, identify and explain where in the code is the generation of the pseudo-tags. 
 
 Also discuss:
