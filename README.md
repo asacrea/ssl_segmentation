@@ -87,5 +87,11 @@ Modify the code in a way that only 2 transformations (1 of color, 1 of geometric
 
 In your report, describe the changes that you did and compare them with the baseline. It has a better a better performance? What is the implication of using 2 or more transformations? Try to relay the paper to the response.
 
+## Point 3
+
+## Point 4
+
+## Point 5
+
 
 
