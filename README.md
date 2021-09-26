@@ -85,7 +85,7 @@ In the report, identify and explain where in the code is the generation of the p
 
 Also discuss:
 - Why they have used a Siamese architecture?
-- Why the clusters generated have semantic meaning?
+- Why the generated clusters have semantic meaning?
 
 
 ## Point 2
