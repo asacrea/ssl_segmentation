@@ -96,13 +96,12 @@ In your report, describe the changes that you did and compare them with the base
 
 ## Point 3
 
-
+Entrenar una red de segmentacion supervisada a su gusto y discuta sobre las diferencias entre las arquitecturas, que repercuciones tienen las arquitecturas sobre los resutados obtenidos para cada red
 
 ## Point 4
 
-Change hyperparameters of the training process in order to get
+Visualizar los 3 experimentos y analizar tanto cualitativamente como cuantivamente. 
 
-## Point 5
 
 
 
