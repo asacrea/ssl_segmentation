@@ -77,7 +77,7 @@ We have pretrained PiCIE weights.
 ## Visualization 
 We prepared [a jupyter notebook](visualize.ipynb) for visualization.
 
-#### Homework
+## Homework
 
 ## Point 1
 Check code and try to understand the conexion between code and the paper. Then run the training and save your results.
