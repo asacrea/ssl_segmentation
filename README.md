@@ -86,7 +86,7 @@ In the report, identify and explain where in the code is the generation of the p
 
 Also discuss:
 - Why they have used a Siamese architecture?
-- Why the generated clusters have semantic meaning?
+- Why the generated clusters have semantic meaning? (Hint: Check Section 3 of PIECE [[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cho_PiCIE_Unsupervised_Semantic_Segmentation_Using_Invariance_and_Equivariance_in_Clustering_CVPR_2021_paper.pdf)])
 
 
 ## Point 2
