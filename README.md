@@ -16,41 +16,6 @@ conda env create -f env.yml
 
 ### Preparing Dataset 
 Please download the [trainset](http://images.cocodataset.org/zips/train2017.zip) and the [validset](http://images.cocodataset.org/zips/val2017.zip) of COCO dataset as well as the [annotations](http://calvin.inf.ed.ac.uk/wp-content/uploads/data/cocostuffdataset/stuffthingmaps_trainval2017.zip) and the [json files](http://images.cocodataset.org/annotations/annotations_trainval2017.zip). Place the dataset as following:
-~~~
-/your/dataset/directory/
-      └── coco/
-            ├── images/
-            │     ├── train2017/
-            │     │       ├── xxxxxxxxx.jpg
-            │     │       └── ...
-            │     └── val2017/
-            │             ├── xxxxxxxxx.jpg
-            │             └── ...
-            └── annotations/
-                  ├── train2017/
-                  │       ├── xxxxxxxxx.png
-                  │       └── ...
-                  ├── val2017/
-                  │       ├── xxxxxxxxx.png
-                  │       └── ...
-                  ├── COCO_2017_train.json
-                  └── COCO_2017_val.json
-~~~
-Then, create a symbolic link as following:
-~~~
-cd PiCIE
-ln -s /your/dataset/directory/ datasets 
-~~~
-Similarly, setup a symbolic link for the save directory as following:
-~~~
-ln -s /your/save/directory/ results
-~~~
-Finally, move *curated* folder and *fine_to_coarse_dict.pickle* file to *datasets/coco/*:
-~~~
-mv curated datasets/coco/
-mv fine_to_coarse_dict.pickle datasets/coco/
-~~~
-This will setup the dataset that contains the same set of images with [IIC](https://github.com/xu-ji/IIC/blob/master/code/datasets/segmentation/cocostuff.py) ([config](https://github.com/xu-ji/IIC/blob/master/examples/commands.txt)).
 
 ## Running PiCIE 
 Below are training and testing commands to train PiCIE. 
