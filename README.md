@@ -1,28 +1,11 @@
-# PiCIE: Unsupervised Semantic Segmentation using Invariance and Equivariance in Clustering
+# Understanding SSL by implementing PiCIE: Unsupervised Semantic Segmentation using Invariance and Equivariance in Clustering.
 
-*[Jang Hyun Cho](https://sites.google.com/view/janghyuncho/)*<sup>1</sup>,
-*[Utkarsh Mall](https://www.cs.cornell.edu/~utkarshm/)*<sup>2</sup>,
-*[Kavita Bala](http://www.cs.cornell.edu/~kb/)*<sup>2</sup>,
-*[Bharath Hariharan](http://home.bharathh.info)*<sup>2</sup>
-
-<sup>1</sup> The University of Texas at Austin, <sup>2</sup> Cornell University
-
-[[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cho_PiCIE_Unsupervised_Semantic_Segmentation_Using_Invariance_and_Equivariance_in_Clustering_CVPR_2021_paper.pdf)] [[supp](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Cho_PiCIE_Unsupervised_Semantic_CVPR_2021_supplemental.pdf)] [[project page](https://sites.google.com/view/picie-cvpr2021/home)]
+[[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cho_PiCIE_Unsupervised_Semantic_Segmentation_Using_Invariance_and_Equivariance_in_Clustering_CVPR_2021_paper.pdf)]
 
 <p align="center"> <img src='assets/teaser2.png' align="center" height="320px"> </p>
 <p align="center"> <img src='assets/teaser.png' align="center" height="250px"> </p>
 
 This repository is the official implementation of [PiCIE: Unsupervised Semantic Segmentation using Invariance and Equivariance in Clustering](https://openaccess.thecvf.com/content/CVPR2021/papers/Cho_PiCIE_Unsupervised_Semantic_Segmentation_Using_Invariance_and_Equivariance_in_Clustering_CVPR_2021_paper.pdf), CVPR 2021. 
-
-Contact: Jang Hyun Cho [janghyuncho7@utexas.edu](mailto:janghyuncho7@utexas.edu). 
-
-Please feel free to reach out for any questions or discussions!
-## News 
-[07/31/2021] Minor update on the training dataset module (please see this [issue](https://github.com/janghyuncho/PiCIE/issues/7)).
-
-[07/14/2021] Added "fine_to_coarse_dict.pickle" file. 
-
-[07/06/2021] Unstable training bug fixed + weights and logs uploaded. 
 
 ## Setup
 Setting up for this project involves installing dependencies and preparing the datasets. 
@@ -96,24 +79,15 @@ We have pretrained PiCIE weights.
 ## Visualization 
 We prepared [a jupyter notebook](visualize.ipynb) for visualization.
 
+#### Homework
 
-## Citation
-If you find PiCIE useful in your research, please consider citing:
-```
-@inproceedings{Cho2021PiCIE,
-  title = {PiCIE: Unsupervised Semantic Segmentation using Invariance and Equivariance in Clustering},
-  author = {Jang Hyun Cho and  Utkarsh Mall and  Kavita Bala and  Bharath Hariharan},
-  year = {2021},
-  booktitle = {CVPR}
-}
-```
-## Acknowledgements 
-We thank Facebook AI Research for the open-soource library [Faiss](https://github.com/facebookresearch/faiss). Also, our implementation largely borrows from [DeepCluster](https://github.com/facebookresearch/deepcluster) and [DeeperCluster](https://github.com/facebookresearch/DeeperCluster) for clustering with Faiss. 
+## Point 1
+Check code and try to understand the conexion between code and the paper. Then run the training and save your results.
 
-#### TODO's
-- [x] Dependency & dataset setup.
-- [x] Clear up and add complete train & test codes. 
-- [x] Baseline MDC code.
-- [x] Weights and logs.
-- [x] Make visualization notebook easier to use + better colors. 
+## Point 2
+Modify the code in a way that only 2 transformations (1 of color, 1 of geometrics) can be aplied to images in the process of change images. Then run the training and save your results.
+
+In your report, describe the changes that you did and compare them with the baseline. It has a better a better performance? What is the implication of using 2 or more transformations? Try to relay the paper to the response.
+
+
 
