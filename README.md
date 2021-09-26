@@ -80,7 +80,13 @@ We prepared [a jupyter notebook](visualize.ipynb) for visualization.
 ## Homework
 
 ## Point 1
-Check code and try to understand the conexion between code and the paper. Then run the train file and save your results.
+Review the code and try to understand the connection between the code and the paper. Then run the train file and save the results.
+In the report, identify and explain where in the code is the generation of the pseudo-tags. 
+
+Also discuss:
+- Why they have used a Siamese architecture?
+- Why the clusters generated have semantic meaning?
+
 
 ## Point 2
 Modify the code in a way that only 2 transformations (1 of color, 1 of geometrics) can be aplied to images. Then run the train file and save your results.
@@ -88,6 +94,8 @@ Modify the code in a way that only 2 transformations (1 of color, 1 of geometric
 In your report, describe the changes that you did and compare them with the baseline. It has a better performance? Which transformations are already implemented? What is the implication of using 2 or more transformations? Try to relay the paper to the response.
 
 ## Point 3
+
+
 
 ## Point 4
 
