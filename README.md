@@ -80,16 +80,18 @@ We prepared [a jupyter notebook](visualize.ipynb) for visualization.
 ## Homework
 
 ## Point 1
-Check code and try to understand the conexion between code and the paper. Then run the training and save your results.
+Check code and try to understand the conexion between code and the paper. Then run the train file and save your results.
 
 ## Point 2
-Modify the code in a way that only 2 transformations (1 of color, 1 of geometrics) can be aplied to images in the process of change images. Then run the training and save your results.
+Modify the code in a way that only 2 transformations (1 of color, 1 of geometrics) can be aplied to images. Then run the train file and save your results.
 
-In your report, describe the changes that you did and compare them with the baseline. It has a better a better performance? What is the implication of using 2 or more transformations? Try to relay the paper to the response.
+In your report, describe the changes that you did and compare them with the baseline. It has a better performance? Which transformations are already implemented? What is the implication of using 2 or more transformations? Try to relay the paper to the response.
 
 ## Point 3
 
 ## Point 4
+
+Change hyperparameters of the training process in order to get
 
 ## Point 5
 
