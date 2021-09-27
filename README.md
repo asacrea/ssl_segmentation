@@ -59,7 +59,7 @@ In the report, discuss what impact the architectures have on the results obtaine
 
 ## Point 4 [1.3 Points]
 
-Visualize the 3 experiments [reference model - supervised model - model of your choice] and analyze them qualitatively and quantitatively
+Visualize the 3 experiments [baseline model - supervised model - model of your choice] and analyze them qualitatively and quantitatively
 Hint: Check this link [jupiter notebook](visualize.ipynb) that the authors did to visualize results.
 
 
