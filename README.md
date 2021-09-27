@@ -6,9 +6,6 @@ PiCIE Unsupervised Semantic Segmentation using Invariance and Equivariance in Cl
 <p align="center"> <img src='assets/teaser.png' align="center" height="250px"> </p>
 
 ## Setup
-Setting up for this project involves installing dependencies and preparing the datasets. 
-
-### Installing dependencies
 First, you should install all the dependencies, run the following line in the linux console:
 
 ~~~
