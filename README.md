@@ -17,7 +17,8 @@ conda env create -f env.yml
 Create a softlink to the parcial COCO dataset, this directory must be at the same level of the .py codes. Run this lines in the linux console.
 
 ~~~
-ln -s "/media/user_home1/eslozano/AML/SSL-hw/ssl_segmentation/COCO_Segment/" "Your_directory"
+BVC002: ln -s "/media/user_home0/eslozano/AML/SSL-hw/ssl_segmentation/COCO_Segment/" "Your_directory_name"
+BVC003: ln -s "/media/user_home1/eslozano/AML/SSL-hw/ssl_segmentation/COCO_Segment/" "Your_directory_name"
 ~~~
 
 
