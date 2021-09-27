@@ -31,9 +31,9 @@ def parse_arguments():
     parser.add_argument('--res', type=int, default=320, help='Input size.')
     parser.add_argument('--res1', type=int, default=320, help='Input size scale from.')
     parser.add_argument('--res2', type=int, default=640, help='Input size scale to.')
-    parser.add_argument('--batch_size_cluster', type=int, default=256)
-    parser.add_argument('--batch_size_train', type=int, default=128)
-    parser.add_argument('--batch_size_test', type=int, default=128)
+    parser.add_argument('--batch_size_cluster', type=int, default=50)
+    parser.add_argument('--batch_size_train', type=int, default=50)
+    parser.add_argument('--batch_size_test', type=int, default=50)
     parser.add_argument('--lr', type=float, default=1e-4)
     parser.add_argument('--weight_decay', type=float, default=5e-4)
     parser.add_argument('--momentum', type=float, default=0.9)
@@ -53,13 +53,13 @@ def parse_arguments():
     parser.add_argument('--mse', action='store_true', default=False)
 
     # Dataset. 
-    parser.add_argument('--augment', action='store_true', default=False)
-    parser.add_argument('--equiv', action='store_true', default=False)
+    parser.add_argument('--augment', action='store_true', default=True)
+    parser.add_argument('--equiv', action='store_true', default=True)
     parser.add_argument('--min_scale', type=float, default=0.5)
-    parser.add_argument('--stuff', action='store_true', default=False)
-    parser.add_argument('--thing', action='store_true', default=False)
+    parser.add_argument('--stuff', action='store_true', default=True)
+    parser.add_argument('--thing', action='store_true', default=True)
     parser.add_argument('--jitter', action='store_true', default=False)
-    parser.add_argument('--grey', action='store_true', default=False)
+    parser.add_argument('--grey', action='store_true', default=True)
     parser.add_argument('--blur', action='store_true', default=False)
     parser.add_argument('--h_flip', action='store_true', default=False)
     parser.add_argument('--v_flip', action='store_true', default=False)
@@ -186,6 +186,7 @@ def main(args, logger):
                                                 pin_memory=True,
                                                 collate_fn=collate_train,
                                                 worker_init_fn=worker_init_fn(args.seed))
+    print(trainset)
     
     testset    = EvalCOCO(args.data_root, res=args.res, split='val', mode='test', stuff=args.stuff, thing=args.thing)
     testloader = torch.utils.data.DataLoader(testset,
